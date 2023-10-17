@@ -27,10 +27,12 @@
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body bg-dark" style="text-align: center;">
+               <form action="login.php" method="post">
                <label for="email_id" style="background-color:rgba(240, 248, 255, 0);padding-bottom:5px;">E-mail</label><br>
                <input type="email" placeholder="abc@gmail.com" name="email_id" required><br>
                <label for="u_pass" style="background-color:rgba(240, 248, 255, 0);padding-top:5px;padding-bottom:5px;">Password</label><br>
                <input type="password" placeholder="password" name="u_pass" required><br>
+               </form>
               </div>
               <div class="modal-footer bg-dark" style="border-color: rgba(240, 248, 255, 0);justify-content: center;">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -49,6 +51,7 @@
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body bg-dark" style="text-align: center;">
+            <form action="register.php" method="post">
             <label for="u_name" style="background-color:none;padding-bottom:10px;">Name</label><br>
             <input type="text" placeholder="Name" name="u_name"  required><br>
             <label for="email_id" style="background-color:none;padding-top:10px;padding-bottom:10px;">E-mail</label><br>
@@ -57,6 +60,7 @@
             <input type="password"placeholder="Password" name="u_pass" required><br>
             <label for="u_pass1" style="background-color:none;padding-top:10px;padding-bottom:10px;">Re-enter Password</label><br>
             <input type="password"placeholder="Password" name="u_pass" required><br>
+            </form>
             </div>
             <div class="modal-footer bg-dark" style="border-color: rgba(240, 248, 255, 0);justify-content: center;">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -125,6 +129,5 @@
 <section>
 
 </section>
-
 </body>
 </html>
